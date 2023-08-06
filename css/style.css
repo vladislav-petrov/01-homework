@@ -3,4 +3,286 @@
   --dark: #3B4050;
   --light: #F1F1F1;
   --gold: #A59678;
+  --white: #FFFFFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  /* letter-spacing: -0.02rem; */
+}
+
+ul {
+  list-style: none;
+}
+
+.wrapper {
+  max-width: 160rem;
+  width: 36rem;
+  margin: 0 auto;
+  padding: 0 2.4rem;
+}
+
+/* HEADER */
+
+.header {
+  background-color: var(--header-dark);
+}
+
+.header__nav {
+  padding: 0 2.6rem;
+}
+
+.header__nav-list {
+  height: 5.6rem;
+
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav-link {
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+
+.header__nav-link:link,
+.header__nav-link:visited {
+  color: var(--light);
+  text-decoration: none;
+}
+
+/* HERO SECTION */
+
+.hero {
+  background-color: var(--dark);
+  padding: 4.8rem 0;
+}
+
+.wrapper-hero {
+  display: flex;
+
+  gap: 3.2rem;
+  flex-direction: column;
+}
+
+.hero__heading {
+  color: var(--light);
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 4.8rem;
+}
+
+.hero__description {
+  display: flex;
+
+  gap: 2.4rem;
+  flex-direction: column;
+}
+
+.hero__description-text {
+  color: var(--light);
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+}
+
+.hero__description-btn {
+  width: fit-content;
+  padding: 0.8rem 2.4rem;
+  border: none;
+  border-radius: 16px;
+  background-color: var(--gold);
+  color: var(--light);
+  font-size: 1.6rem;
+  font-weight: 700;
+  font-family: inherit;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+}
+
+/* FEAUTURES */
+
+.features {
+  background-color: var(--light);
+  padding: 4.8rem 0;
+}
+
+.wrapper-features {
+  display: flex;
+
+  gap: 4rem;
+  flex-direction: column;
+}
+
+.features__feature {
+  display: flex;
+
+  gap: 1.6rem;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.features__feature-title {
+  color: var(--gold);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 3.2rem;
+}
+
+.features__feature-text {
+  text-align: center;
+  color: var(--header-dark);
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+}
+
+/* ARTICLE */
+
+.article {
+  background-color: var(--white);
+  padding: 4.8rem 0;
+}
+
+.wrapper-article {
+  display: flex;
+
+  gap: 6.4rem;
+  flex-direction: column;
+}
+
+.article__description {
+  display: flex;
+
+  gap: 2.4rem;
+  flex-direction: column;
+}
+
+.article__description-title {
+  color: var(--gold);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 3.2rem;
+}
+
+.article__description-content {
+  display: flex;
+
+  gap: 4rem;
+  flex-direction: column;
+}
+
+.article__description-text {
+  color: var(--header-dark);
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.8rem;
+}
+
+.article__description-img {
+  max-width: 100%;
+}
+
+.article__bonuses {
+  display: flex;
+
+  gap: 2.4rem;
+  flex-direction: column;
+}
+
+.article__bonus {
+  background-color: var(--dark);
+  padding: 3.2rem;
+  color: var(--light);
+
+  display: flex;
+
+  gap: 2.4rem;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.article__bonus-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 3.2rem;
+}
+
+.article__bonus-text {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: var(--dark);
+  padding: 7.2rem 0;
+}
+
+.wrapper-footer {
+  display: flex;
+
+  gap: 4rem;
+  flex-direction: column;
+}
+
+.footer__heading {
+  color: var(--light);
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 4rem;
+}
+
+.footer__info {
+  display: flex;
+
+  gap: 3.2rem;
+  flex-direction: column;
+}
+
+.footer__info-about,
+.footer__info-other {
+  display: flex;
+
+  gap: 1.2rem;
+  flex-direction: column;
+}
+
+.info-heading {
+  color: var(--gold);
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+}
+
+.info-about__text,
+.info-other__list {
+  color: var(--light);
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+}
+
+.info-other__list {
+  display: flex;
+
+  gap: 1.2rem;
+  flex-direction: column;
 }

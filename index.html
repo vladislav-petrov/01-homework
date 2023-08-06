@@ -5,24 +5,229 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"
+    >
+
     <link rel="stylesheet" href="css/style.css" />
 
     <title>Red Collar Frontend School 2023, Homework №1</title>
   </head>
 
   <body>
-    <header>
+    <header class="header">
+      <div class="wrapper">
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li>
+              <a class="header__nav-link" href="#">Home</a>
+            </li>
 
+            <li>
+              <a class="header__nav-link" href="#">About</a>
+            </li>
+
+            <li>
+              <a class="header__nav-link" href="#">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main>
-      <section class="hero"></section>
-      <section class="features"></section>
-      <section class="article"></section>
+      <section class="hero">
+        <div class="wrapper wrapper-hero">
+          <h1 class="hero__heading">
+            This product will absolutely blow your mind!
+          </h1>
+
+          <div class="hero__description">
+            <p class="hero__description-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+  
+            <button class="hero__description-btn">
+              Buy it now
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="wrapper wrapper-features">
+          <div class="features__feature">
+            <h3 class="features__feature-title">
+              Easy to use
+            </h3>
+
+            <p class="features__feature-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+
+          <div class="features__feature">
+            <h3 class="features__feature-title">
+              Performant
+            </h3>
+
+            <p class="features__feature-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+
+          <div class="features__feature">
+            <h3 class="features__feature-title">
+              Delivered
+            </h3>
+
+            <p class="features__feature-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="article">
+        <div class="wrapper wrapper-article">
+          <div class="article__description">
+            <h3 class="article__description-title">
+              Boost your productivity
+            </h3>
+
+            <div class="article__description-content">
+              <p class="article__description-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+              </p>
+  
+              <img
+                class="article__description-img"
+                src="img/image.png"
+                alt="Man browsing the Web"
+              />
+  
+              <p class="article__description-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+              </p>
+            </div>
+          </div>
+
+          <div class="article__bonuses">
+            <div class="article__bonus">
+              <h4 class="article__bonus-title">
+                Try it for free
+              </h4>
+
+              <p class="article__bonus-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+
+            <div class="article__bonus">
+              <h4 class="article__bonus-title">
+                1 year warranty
+              </h4>
+
+              <p class="article__bonus-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+
+            <div class="article__bonus">
+              <h4 class="article__bonus-title">
+                20% off for two
+              </h4>
+
+              <p class="article__bonus-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <footer>
+    <footer class="footer">
+      <div class="wrapper wrapper-footer">
+        <h2 class="footer__heading">
+          Contact us today
+        </h2>
 
+        <div class="footer__info">
+          <div class="footer__info-about">
+            <h5 class="info-heading">
+              About the company
+            </h5>
+
+            <p class="info-about__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+            </p>
+          </div>
+
+          <div class="footer__info-other">
+            <h5 class="info-heading">
+              Getting around
+            </h5>
+
+            <ul class="info-other__list">
+              <li class="info-other__list-item">
+                Home
+              </li>
+
+              <li class="info-other__list-item">
+                About
+              </li>
+
+              <li class="info-other__list-item">
+                Contacts
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__info-other">
+            <h5 class="info-heading">
+              Other info
+            </h5>
+
+            <ul class="info-other__list">
+              <li class="info-other__list-item">
+                Lorem
+              </li>
+
+              <li class="info-other__list-item">
+                Ipsum
+              </li>
+
+              <li class="info-other__list-item">
+                Dolor
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__info-other">
+            <h5 class="info-heading">
+              Legal info
+            </h5>
+
+            <ul class="info-other__list">
+              <li class="info-other__list-item">
+                Sit
+              </li>
+
+              <li class="info-other__list-item">
+                Amet
+              </li>
+
+              <li class="info-other__list-item">
+                Tempor
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
