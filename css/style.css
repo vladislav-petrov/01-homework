@@ -27,7 +27,6 @@ ul {
 
 .wrapper {
   max-width: 160rem;
-  width: 36rem;
   margin: 0 auto;
   padding: 0 2.4rem;
 }
@@ -54,6 +53,7 @@ ul {
 .header__nav-link {
   font-weight: 600;
   font-size: 1.6rem;
+  line-height: 2.4rem;
   text-transform: uppercase;
 }
 
@@ -110,6 +110,7 @@ ul {
   font-family: inherit;
   line-height: 2.4rem;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 /* FEAUTURES */
@@ -285,4 +286,8 @@ ul {
 
   gap: 1.2rem;
   flex-direction: column;
+}
+
+.info-other__list-item {
+  cursor: pointer;
 }
